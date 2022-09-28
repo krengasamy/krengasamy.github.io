@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+
+        <style type="text/css">
+            
+            Input[type=text]{
+                    border: 2px solid #black;
+                    padding: 10px;
+                    width: 750px;
+                    height: 1px;
+                    padding-left: 20px;
+                    margin-left: 30px;
+                    margin-top: 25px;
+                }
+            label{
+                    padding: 10px;
+                    width: 75px;
+                    height: 1px;
+                    padding-left: 10px;
+                    margin-left: 20px;
+                    margin-top: 25px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+            <a href="index.html">Go Back</a> 
+             <h3 style="color: indianred;margin-bottom: 100px;">Advance Search</h3>
+        <form method="GET" action="https://www.google.com/search" >  
+          <div>
+            <label> Find pages with... </label>
+            <label style="  padding-left: 810px;">To do this in the search box</label>
+          </div>
+          <div>
+            <label>Find pages with… </label>
+            <input type="text" id="as_q"  name="as_q">
+            <label>“all these words:”</label>
+        </div>
+        <div>
+            <label>Find pages with… </label>
+            <input type="text" id="as_epq" name="as_epq">
+            <label>“this exact word or phrase:”</label>
+        </div>
+        <div>
+            <label>Find pages with… </label>
+            <input type="text" id="as_oq"  name="as_oq">
+            <label>“any of these words:”</label>
+        </div>
+        <div>
+            <label>Find pages with… </label>
+            <input type="text" id="as_eq"  name="as_eq">
+            <label>“none of these words:”</label>
+        </div>
+        <div>
+            <button type="submit" id="Advance Search" style="margin-left: 860px;margin-top: 25px; background: lightblue; height: 30px;text ; min-width: 120px;" > Advance Search </button> 
+        </div>
+       
+    </form>
+
+    </body>
+</html>
